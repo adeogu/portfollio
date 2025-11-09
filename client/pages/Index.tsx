@@ -27,7 +27,7 @@ export default function Index() {
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed">
-                A passionate full-stack software developer specializing in cloud computing, AI integration, and modern web applications. Currently pursuing BSc (Hon) Cloud Computing and A.I at Technological University of the Shannon.
+                A full-stack software developer transitioning into <strong>DevOps & Cloud Engineering</strong>. Specializing in containerization, CI/CD automation, and scalable cloud infrastructure. Currently pursuing BSc (Hon) Cloud Computing and A.I at Technological University of the Shannon.
               </p>
 
               <div className="flex flex-wrap gap-4">
