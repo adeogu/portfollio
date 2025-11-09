@@ -33,12 +33,12 @@ export default function Navigation() {
           </div>
 
           {/* Resume Button */}
-          <a
-            href="#resume"
+          <Link
+            to="/about"
             className="px-6 py-2 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
           >
             Resume
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
