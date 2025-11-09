@@ -23,11 +23,11 @@ export default function Index() {
               </div>
 
               <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight">
-                Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500">Here</span>
+                Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500">Adeola</span>
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed">
-                A passionate software developer and technology enthusiast. I specialize in building beautiful, modern web applications and solving complex technical challenges.
+                A passionate full-stack software developer specializing in cloud computing, AI integration, and modern web applications. Currently pursuing BSc (Hon) Cloud Computing and A.I at Technological University of the Shannon.
               </p>
 
               <div className="flex flex-wrap gap-4">
