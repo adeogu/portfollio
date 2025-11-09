@@ -37,12 +37,12 @@ export default function Index() {
                 >
                   View My Work
                 </Link>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="px-8 py-3 border-2 border-gray-300 text-gray-900 font-semibold rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-colors"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
 
               {/* Social Links */}
