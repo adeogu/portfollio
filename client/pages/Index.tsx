@@ -164,7 +164,7 @@ export default function Index() {
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  React & Vue
+                  React & React Native
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -184,11 +184,11 @@ export default function Index() {
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  Node.js & Express
+                  Spring Boot & Java
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  SQL & NoSQL
+                  Python
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
@@ -197,22 +197,22 @@ export default function Index() {
               </ul>
             </div>
 
-            {/* Tools */}
+            {/* Cloud & AI */}
             <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🛠️</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Tools & More</h3>
+              <div className="text-4xl mb-4">☁️</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Cloud & AI</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  Git & GitHub
+                  Cloud Computing
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  Docker
+                  GPT-4 & AI Integration
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  CI/CD Pipelines
+                  VR/AR & IoT
                 </li>
               </ul>
             </div>
