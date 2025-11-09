@@ -181,6 +181,81 @@ export default function Skills() {
         </div>
       </section>
 
+      {/* DevOps Focus Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">DevOps & Cloud Engineering Focus</h2>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Specializations */}
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-8 border border-purple-200">
+              <h3 className="text-2xl font-bold text-purple-900 mb-6 flex items-center gap-2">
+                <span>🎯</span> Core Specializations
+              </h3>
+              <div className="space-y-4">
+                {[
+                  { title: "Containerization", desc: "Docker, container registries, image optimization" },
+                  { title: "Orchestration", desc: "Kubernetes fundamentals, deployment strategies" },
+                  { title: "CI/CD", desc: "GitHub Actions, Jenkins, automated testing & deployment" },
+                  { title: "Infrastructure", desc: "Terraform, CloudFormation, Infrastructure as Code" },
+                  { title: "Cloud Platforms", desc: "AWS services, cloud architecture, cost optimization" },
+                  { title: "Monitoring", desc: "Prometheus, Grafana, logging, observability" }
+                ].map((item, index) => (
+                  <div key={index} className="bg-white p-4 rounded-lg border border-purple-200">
+                    <p className="font-semibold text-purple-900">{item.title}</p>
+                    <p className="text-sm text-purple-700 mt-1">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Learning Journey */}
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 border border-blue-200">
+              <h3 className="text-2xl font-bold text-blue-900 mb-6 flex items-center gap-2">
+                <span>📈</span> Learning Journey
+              </h3>
+              <div className="space-y-4">
+                <div className="bg-white p-4 rounded-lg border border-blue-200">
+                  <p className="font-semibold text-blue-900">Current Focus</p>
+                  <p className="text-sm text-blue-700 mt-1">Building hands-on experience with Docker, Kubernetes, and AWS</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-blue-200">
+                  <p className="font-semibold text-blue-900">Next Goals</p>
+                  <p className="text-sm text-blue-700 mt-1">AWS Solutions Architect & Kubernetes Administrator certifications</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-blue-200">
+                  <p className="font-semibold text-blue-900">Practical Projects</p>
+                  <p className="text-sm text-blue-700 mt-1">Setting up automated CI/CD pipelines, containerizing applications</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-blue-200">
+                  <p className="font-semibold text-blue-900">Collaboration</p>
+                  <p className="text-sm text-blue-700 mt-1">Contributing to open-source DevOps tools and cloud projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Why Transition to DevOps */}
+          <div className="mt-8 bg-gradient-to-r from-purple-50 via-blue-50 to-purple-50 rounded-xl p-8 border border-purple-200">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">🌟 Why DevOps Excites Me</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div>
+                <p className="font-semibold text-gray-900 mb-2">Bridging Gap</p>
+                <p className="text-gray-700 text-sm">Combining my development expertise with operational thinking to create better systems</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-2">Automation</p>
+                <p className="text-gray-700 text-sm">Writing code to solve infrastructure challenges and eliminate manual processes</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-2">Impact</p>
+                <p className="text-gray-700 text-sm">Enabling teams to deliver faster, more reliably, and with greater confidence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Education Highlights */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-5xl mx-auto">
