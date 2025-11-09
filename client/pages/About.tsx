@@ -10,8 +10,11 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-pink-50">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">About Me</h1>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            I'm a passionate software developer with a strong foundation in cloud computing, AI, and full-stack development. Currently pursuing a BSc (Hon) in Cloud Computing and A.I at Technological University of the Shannon Athlone, with hands-on experience in modern technologies and agile methodologies.
+          <p className="text-xl text-gray-600 leading-relaxed mb-4">
+            I'm a passionate software developer with a strong foundation in cloud computing, AI, and full-stack development. Currently pursuing a BSc (Hon) in Cloud Computing and A.I at Technological University of the Shannon Athlone. I'm actively transitioning into DevOps and Cloud Engineering, with hands-on experience in modern technologies, containerization, CI/CD pipelines, and agile methodologies.
+          </p>
+          <p className="text-lg text-gray-600 leading-relaxed">
+            My career goal is to become a skilled Cloud/DevOps Engineer, leveraging my full-stack development background to build scalable, resilient infrastructure and optimize deployment processes. I'm passionate about automating workflows, ensuring system reliability, and bridging the gap between development and operations.
           </p>
         </div>
       </section>
