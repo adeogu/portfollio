@@ -108,13 +108,13 @@ export default function Index() {
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                  I'm a dedicated software developer with a passion for creating elegant solutions to complex problems. With a strong foundation in both frontend and backend technologies, I enjoy building full-stack applications that provide exceptional user experiences.
+                  I'm a dedicated software developer passionate about creating elegant solutions through full-stack development, cloud computing, and AI integration. Currently pursuing a BSc (Hon) in Cloud Computing and A.I at Technological University of the Shannon.
                 </p>
                 <p>
-                  My journey in technology started with a curiosity about how things work. This drive led me to pursue formal education and continuous learning to stay updated with the latest industry trends.
+                  With hands-on experience in React, Spring Boot, Python, and emerging technologies like VR/AR, I've worked on diverse projects ranging from mobile applications to AI-powered solutions. I thrive in collaborative, agile environments where I can contribute technical expertise while learning from talented teams.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or collaborating with other developers on exciting initiatives.
+                  I'm driven by curiosity and continuous learning, always exploring new technologies and methodologies to improve my craft and deliver better solutions.
                 </p>
               </div>
 
@@ -124,17 +124,25 @@ export default function Index() {
                   <p className="text-gray-600 text-sm">Projects Completed</p>
                 </div>
                 <div className="bg-pink-50 p-4 rounded-lg">
-                  <p className="text-3xl font-bold text-pink-600">5+</p>
+                  <p className="text-3xl font-bold text-pink-600">3+</p>
                   <p className="text-gray-600 text-sm">Years Experience</p>
                 </div>
               </div>
 
-              <Link
-                to="/projects"
-                className="inline-block px-6 py-3 mt-4 bg-gradient-to-r from-blue-500 to-pink-500 text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
-              >
-                Explore My Work →
-              </Link>
+              <div className="flex gap-3 pt-4">
+                <Link
+                  to="/about"
+                  className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-pink-500 text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  Read My Full Story →
+                </Link>
+                <Link
+                  to="/projects"
+                  className="inline-block px-6 py-3 border-2 border-gray-300 text-gray-900 font-semibold rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-colors"
+                >
+                  View Projects
+                </Link>
+              </div>
             </div>
           </div>
         </div>
