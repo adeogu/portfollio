@@ -7,10 +7,10 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 hover:opacity-75 transition-opacity">
-            <div className="w-8 h-8 bg-black rounded-md flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-pink-500 rounded-md flex items-center justify-center">
               <span className="text-white font-bold text-lg">A</span>
             </div>
-            <span className="font-bold text-gray-900 hidden sm:inline">Portfolio</span>
+            <span className="font-bold text-gray-900 hidden sm:inline">Adeola</span>
           </Link>
 
           {/* Navigation Links */}
