@@ -258,16 +258,16 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Adeola Ogunnoiki. All rights reserved.
             </div>
             <div className="flex gap-6 text-sm">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://github.com/adeogu" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 GitHub
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://linkedin.com/in/adeola" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 LinkedIn
               </a>
-              <a href="mailto:hello@example.com" className="hover:text-white transition-colors">
+              <a href="mailto:Adeogu1234@gmail.com" className="hover:text-white transition-colors">
                 Email
               </a>
             </div>
