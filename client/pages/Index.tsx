@@ -238,7 +238,7 @@ export default function Index() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@example.com"
+              href="mailto:Adeogu1234@gmail.com"
               className="px-8 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors"
             >
               Send me an email
