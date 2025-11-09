@@ -75,13 +75,128 @@ export default function About() {
                   "Cloud Development",
                   "Agile Methodologies",
                   "Databases",
-                  "Data Structures & Algorithms"
+                  "Data Structures & Algorithms",
+                  "Cloud Infrastructure",
+                  "DevOps Practices"
                 ].map((course) => (
                   <span key={course} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">
                     {course}
                   </span>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cloud Engineering & DevOps Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">My Journey into Cloud Engineering & DevOps</h2>
+
+          <div className="space-y-6">
+            {/* Career Direction */}
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200">
+              <h3 className="text-2xl font-bold text-blue-900 mb-4">📈 Career Direction</h3>
+              <p className="text-blue-800 leading-relaxed">
+                While my background spans full-stack development and AI integration, I'm actively pivoting toward Cloud Engineering and DevOps. This transition combines my passion for building scalable systems with my interest in infrastructure, automation, and operational excellence. I believe understanding both development and operations creates better engineers who can design systems with deployment and reliability in mind.
+              </p>
+            </div>
+
+            {/* Why DevOps */}
+            <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-xl border border-pink-200">
+              <h3 className="text-2xl font-bold text-pink-900 mb-4">🚀 Why DevOps & Cloud Engineering?</h3>
+              <ul className="space-y-3 text-pink-800">
+                <li className="flex items-start gap-3">
+                  <span className="text-pink-600 font-bold text-lg mt-1">→</span>
+                  <span><strong>Scalability & Reliability:</strong> I'm fascinated by designing systems that handle millions of requests, ensuring zero downtime, and maintaining data integrity at scale.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-pink-600 font-bold text-lg mt-1">→</span>
+                  <span><strong>Automation:</strong> The idea of automating repetitive tasks, reducing human error, and enabling faster deployment cycles excites me.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-pink-600 font-bold text-lg mt-1">→</span>
+                  <span><strong>Infrastructure as Code:</strong> Writing code to provision and manage infrastructure appeals to my developer mindset while solving operational challenges.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-pink-600 font-bold text-lg mt-1">→</span>
+                  <span><strong>Problem Solving:</strong> DevOps is about solving complex problems around deployment, monitoring, security, and performance optimization.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-pink-600 font-bold text-lg mt-1">→</span>
+                  <span><strong>Continuous Learning:</strong> The cloud and DevOps landscape evolves rapidly with new tools and practices—perfect for someone who thrives on learning.</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Technical Focus */}
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl border border-purple-200">
+              <h3 className="text-2xl font-bold text-purple-900 mb-4">⚙️ Technical Focus Areas</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg border border-purple-200">
+                  <p className="font-semibold text-purple-900 mb-3">Cloud Platforms</p>
+                  <ul className="space-y-1 text-purple-800 text-sm">
+                    <li>• AWS (EC2, S3, Lambda, RDS, VPC)</li>
+                    <li>• Azure fundamentals</li>
+                    <li>• GCP basics</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-purple-200">
+                  <p className="font-semibold text-purple-900 mb-3">Containerization & Orchestration</p>
+                  <ul className="space-y-1 text-purple-800 text-sm">
+                    <li>• Docker containerization</li>
+                    <li>• Kubernetes concepts</li>
+                    <li>• Container registries</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-purple-200">
+                  <p className="font-semibold text-purple-900 mb-3">CI/CD & Automation</p>
+                  <ul className="space-y-1 text-purple-800 text-sm">
+                    <li>• Jenkins, GitHub Actions</li>
+                    <li>• Infrastructure as Code (Terraform, CloudFormation)</li>
+                    <li>• Configuration Management</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg border border-purple-200">
+                  <p className="font-semibold text-purple-900 mb-3">Monitoring & Logging</p>
+                  <ul className="space-y-1 text-purple-800 text-sm">
+                    <li>• Prometheus & Grafana</li>
+                    <li>• ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                    <li>• Application Performance Monitoring</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Growth Path */}
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl border border-green-200">
+              <h3 className="text-2xl font-bold text-green-900 mb-4">📚 My Learning Path</h3>
+              <p className="text-green-800 mb-4 leading-relaxed">
+                I'm actively building my DevOps expertise through:
+              </p>
+              <ul className="space-y-2 text-green-800">
+                <li className="flex items-start gap-3">
+                  <span className="text-green-600 font-bold text-lg mt-1">✓</span>
+                  <span>Hands-on projects with Docker, Kubernetes, and cloud platforms</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-green-600 font-bold text-lg mt-1">✓</span>
+                  <span>Setting up CI/CD pipelines for personal and professional projects</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-green-600 font-bold text-lg mt-1">✓</span>
+                  <span>Studying for relevant certifications (AWS Solutions Architect, Kubernetes Administrator)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-green-600 font-bold text-lg mt-1">✓</span>
+                  <span>Contributing to open-source DevOps projects</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-green-600 font-bold text-lg mt-1">✓</span>
+                  <span>Building a strong foundation in Linux, networking, and system administration</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
