@@ -197,22 +197,22 @@ export default function Index() {
               </ul>
             </div>
 
-            {/* Cloud & AI */}
-            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">☁️</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Cloud & AI</h3>
+            {/* DevOps & Cloud */}
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow ring-2 ring-blue-200">
+              <div className="text-4xl mb-4">🚀</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">DevOps & Cloud</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  Cloud Computing
+                  Docker & Kubernetes
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  GPT-4 & AI Integration
+                  CI/CD & Automation
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  VR/AR & IoT
+                  AWS & Cloud Infrastructure
                 </li>
               </ul>
             </div>
