@@ -27,15 +27,27 @@ const skillCategories = [
     ]
   },
   {
-    title: "Cloud & Infrastructure",
-    icon: "☁️",
+    title: "DevOps & Cloud Engineering",
+    icon: "🚀",
     color: "purple",
     skills: [
-      { name: "Cloud Computing", level: 85 },
       { name: "Docker", level: 80 },
-      { name: "CI/CD Pipelines", level: 75 },
-      { name: "AWS", level: 70 },
-      { name: "Database Management", level: 85 }
+      { name: "CI/CD Pipelines", level: 80 },
+      { name: "AWS Fundamentals", level: 75 },
+      { name: "Kubernetes Basics", level: 70 },
+      { name: "Infrastructure as Code", level: 75 }
+    ]
+  },
+  {
+    title: "Cloud Platforms & Services",
+    icon: "☁️",
+    color: "blue",
+    skills: [
+      { name: "AWS (EC2, S3, Lambda, RDS)", level: 75 },
+      { name: "Cloud Architecture", level: 75 },
+      { name: "Monitoring & Logging", level: 70 },
+      { name: "Terraform", level: 70 },
+      { name: "CloudFormation", level: 70 }
     ]
   },
   {
