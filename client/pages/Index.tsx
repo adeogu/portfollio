@@ -93,11 +93,11 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Image/Visual */}
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 flex justify-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F5644d5e15e3b48208dfd1209e52b05c7%2F7344b3258ef54fdb94683710c770f37f?format=webp&width=800"
                 alt="Adeola Ogunnoiki's professional image"
-                className="rounded-2xl h-96 w-full object-cover shadow-lg"
+                className="rounded-full w-96 h-96 object-cover shadow-lg"
               />
             </div>
 
