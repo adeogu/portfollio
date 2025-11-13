@@ -45,6 +45,21 @@ const projects = [
     color: "purple"
   },
   {
+    title: "Dots and Boxes Game",
+    date: "06/2024 - 09/2024",
+    description: "Developed an interactive multiplayer game combining real-time web technologies with full-stack development. Players compete in a classic dots and boxes game with up to 5 players online or locally.",
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Socket.IO", "Express.js"],
+    highlights: [
+      "Implemented real-time multiplayer gameplay with Socket.IO",
+      "Built server-side game logic managing state, player connections, and turn management",
+      "Created responsive UI for lobby management and game interactions",
+      "Deployed with Express.js for serving static files and API routing",
+      "Developed comprehensive server functions for game mechanics and player management"
+    ],
+    color: "purple",
+    github: "https://github.com/adeogu/DotsAndBoxesGame/tree/adeogu-patch-1"
+  },
+  {
     title: "Book License Management System",
     date: "04/2023 - 06/2023",
     description: "Developed a comprehensive book license management system with a full backend infrastructure and robust database design.",
