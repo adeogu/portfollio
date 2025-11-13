@@ -263,7 +263,7 @@ export default function Index() {
               <a href="https://github.com/adeogu" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/adeola" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://linkedin.com/in/adeola-ogunnoiki-993469224" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 LinkedIn
               </a>
               <a href="mailto:Adeogu1234@gmail.com" className="hover:text-white transition-colors">
