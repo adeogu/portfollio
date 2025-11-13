@@ -19,7 +19,7 @@ export default function Navigation() {
               Home
             </Link>
             <Link to="/about" className="text-gray-700 hover:text-black font-medium transition-colors">
-              About
+              My Experiences
             </Link>
             <Link to="/projects" className="text-gray-700 hover:text-black font-medium transition-colors">
               Projects
