@@ -3,48 +3,6 @@ import Navigation from "@/components/Navigation";
 
 const projects = [
   {
-    title: "AI-Powered Chatbot Integration",
-    company: "Millennium Machinery",
-    date: "01/2025 - 05/2025",
-    description: "Integrated an AI-powered chatbot into a Shopify storefront using ChainDesk, providing 24/7 customer support and handling 100+ queries in the first month.",
-    technologies: ["ChainDesk", "GPT-4", "Python", "Shopify", "AI"],
-    highlights: [
-      "Fine-tuned custom GPT-4 prompts for customer scenarios",
-      "Automated data ingestion from JSON, Excel, and PDF files",
-      "Enabled accurate responses for 70,000+ products",
-      "Deployed to live Shopify site for stakeholder testing"
-    ],
-    color: "blue"
-  },
-  {
-    title: "Mobile Application Development",
-    company: "Islington Robotica",
-    date: "06/2025 - 10/2025",
-    description: "Developed a cross-platform mobile application with React Native and Spring Boot, ensuring compatibility across iOS and Android platforms.",
-    technologies: ["React Native", "Spring Boot", "Java", "JUnit", "Spring Security"],
-    highlights: [
-      "Implemented secure authentication flows with Spring Security",
-      "Wrote comprehensive JUnit tests for Java components",
-      "Collaborated in agile sprints with cross-functional teams",
-      "Ensured UX consistency across multiple platforms"
-    ],
-    color: "pink"
-  },
-  {
-    title: "VR/AR Car Showcase Experience",
-    company: "Ithra Aramco",
-    date: "Summer 2022, 2023",
-    description: "Developed an immersive car showcase in Unity featuring interactive VR/AR experiences with realistic car and tire animations.",
-    technologies: ["Unity", "VR", "AR", "IoT", "3D Visualization"],
-    highlights: [
-      "Created interactive car showcase with animated transitions",
-      "Demonstrated to 50+ industry attendees",
-      "Engaged representatives from Aramco and Baker Hughes",
-      "Applied state-of-the-art VR/AR and AI technologies"
-    ],
-    color: "purple"
-  },
-  {
     title: "Dots and Boxes Game",
     date: "06/2024 - 09/2024",
     description: "Developed an interactive multiplayer game combining real-time web technologies with full-stack development. Players compete in a classic dots and boxes game with up to 5 players online or locally.",
