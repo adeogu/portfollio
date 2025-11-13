@@ -134,7 +134,7 @@ export default function Projects() {
                   </div>
 
                   {/* Technologies */}
-                  <div>
+                  <div className="mb-6">
                     <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wide mb-3">Technologies Used</h3>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map((tech) => (
@@ -144,6 +144,20 @@ export default function Projects() {
                       ))}
                     </div>
                   </div>
+
+                  {/* GitHub Link */}
+                  {project.github && (
+                    <div>
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`inline-flex items-center gap-2 ${colors.text} hover:underline font-semibold`}
+                      >
+                        View on GitHub →
+                      </a>
+                    </div>
+                  )}
                 </div>
               );
             })}
