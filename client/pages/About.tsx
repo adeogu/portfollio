@@ -38,7 +38,7 @@ export default function About() {
             </div>
             <div className="bg-white p-6 rounded-lg border border-gray-200">
               <p className="text-gray-600 text-sm mb-2">LinkedIn</p>
-              <a href="https://linkedin.com/in/adeola" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
+              <a href="linkedin.com/in/adeola-ogunnoiki-993469224" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-lg">
                 Adeola Ogunnoiki
               </a>
             </div>
