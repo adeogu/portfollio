@@ -94,12 +94,11 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Image/Visual */}
             <div className="order-2 lg:order-1">
-              <div className="bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl h-96 flex items-center justify-center shadow-lg">
-                <div className="text-center">
-                  <p className="text-6xl mb-4">🚀</p>
-                  <p className="text-gray-600 font-semibold">Building innovative solutions</p>
-                </div>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F5644d5e15e3b48208dfd1209e52b05c7%2F7344b3258ef54fdb94683710c770f37f?format=webp&width=800"
+                alt="Adeola Ogunnoiki's professional image"
+                className="rounded-2xl h-96 w-full object-cover shadow-lg"
+              />
             </div>
 
             {/* Right side - Text content */}
