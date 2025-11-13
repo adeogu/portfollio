@@ -56,7 +56,7 @@ export default function Index() {
                   <span className="text-sm font-medium">GitHub</span>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/adeola-ogunnoiki-993469224"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-black transition-colors"
