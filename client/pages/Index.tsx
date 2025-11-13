@@ -249,11 +249,12 @@ export default function Index() {
               Contact Form
             </Link>
             <a
-              href="/cv.pdf"
-              download="Adeola_Ogunnoiki_CV.pdf"
+              href="https://docs.google.com/document/d/1fuUrK1T_Ch6S4p9QO3B9AV_9uOVq4syL/edit?usp=sharing&ouid=106148686740247533105&rtpof=true&sd=true"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-colors"
             >
-              Download CV
+              View My Resume
             </a>
           </div>
         </div>
