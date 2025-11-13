@@ -248,6 +248,13 @@ export default function Index() {
             >
               Contact Form
             </Link>
+            <a
+              href="/cv.pdf"
+              download="Adeola_Ogunnoiki_CV.pdf"
+              className="px-8 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-colors"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </section>
