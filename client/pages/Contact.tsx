@@ -92,7 +92,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-gray-900">LinkedIn</h3>
               </div>
               <a
-                href="https://linkedin.com/in/adeola"
+                href="https://linkedin.com/in/adeola-ogunnoiki-993469224"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-700 text-lg font-semibold"
